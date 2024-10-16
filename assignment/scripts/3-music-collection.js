@@ -13,6 +13,17 @@ function addToCollection( collection, title, artist, yearPublished){
   return record;
 }
 
+console.log(addToCollection(myCollection, "Cole World: The Sideline Story", "J Cole", 2011));
+console.log(addToCollection(myCollection, "Born Sinner", "J Cole", 2013));
+console.log(addToCollection(myCollection, "2014 Forest Hills Drive", "J Cole", 2014));
+console.log(addToCollection(myCollection, "4 Your Eyez Only", "J Cole", 2016));
+console.log(addToCollection(myCollection, "KOD", "J Cole", 2018));
+console.log(addToCollection(myCollection, "The Off-Season", "J Cole", 2021));
+
+console.log(myCollection);
+
+
+
 
 
 
