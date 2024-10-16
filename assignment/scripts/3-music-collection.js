@@ -5,9 +5,15 @@ myCollection = []
 
 function addToCollection( collection, title, artist, yearPublished){
   const record = {
-    title: title
-  }
+    title: title,
+    artist: artist,
+    yearPublished: yearPublished
+  };
+  collection.push(record);
+  return record;
 }
+
+
 
 
 
