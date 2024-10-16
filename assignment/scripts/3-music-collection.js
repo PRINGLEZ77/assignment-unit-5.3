@@ -22,6 +22,14 @@ console.log(addToCollection(myCollection, "The Off-Season", "J Cole", 2021));
 
 console.log(myCollection);
 
+//Everything I tried past this point broke my code
+
+//function showCollection(collection){
+  //for (let i = 0, i < collection.length, i++);
+  //console.log(`${collection [i]}`)
+  
+  }
+
 
 
 
@@ -36,7 +44,7 @@ console.log(myCollection);
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
 // as a lil' chunk of friendly code that you don't need to understand right now.
 // (It's used for automated testing.)
-try {
+/*try {
   module.exports = {
     myCollection: typeof myCollection !== 'undefined' ? myCollection : undefined,
     addToCollection: typeof addToCollection !== 'undefined' ? addToCollection : undefined,
@@ -47,3 +55,4 @@ try {
 } catch (e) {
   // Do nothing
 }
+*/
